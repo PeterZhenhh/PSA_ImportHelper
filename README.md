@@ -5,4 +5,4 @@
 
 "ActorXImporter.ms" and "export_fbx.ms" are my custom version of ActorXImporter. Use them after you generate many "<skeleton Name>.config" with "psa_config.py". It also solve the problem that overwriting existed animations with same filename by adding TrackNum prefix.
 
-"AdditiveAnimsAlter.ms" is my custom version of additive fix maxscript mentioned above. Add a feature to batch export animations in different folders. To use this feature, edit batchConfigExample.cfg with this format:"PathToBaseAnim"+"|"+"PathToAdditiveAnim"+"|"+"1/2"(1->localSpace, 2->meshSpace).It currently only support using the first frame of baseAmim as refFrame.
+"AdditiveAnimsAlter.ms" is my custom version of additive fix maxscript mentioned above. Add a feature to batch export animations in different folders. To use this feature, edit batchConfigExample.cfg with this format:"PathToAdditiveAnim"+"|"+"PathToBaseAnim"+"|"+"1/2"(1->localSpace, 2->meshSpace).It currently only support using the first frame of baseAmim as refFrame.
